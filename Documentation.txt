@@ -1,0 +1,21 @@
+
+
+Documenting the Code
+
+1. Created two classes 
+   1. StringComparisonClient  -> This class contains main() which calls methods from StringComparison
+   2. StringComparison        -> This class contains actual business logic to complete the task
+                                 All the methods written here are static methods.
+  
+2. From the main() -> Using Scanner to take input from user.
+                      after taking input pass that objects to methods.
+					  
+3. Methods in StringComparison
+
+   getValidNumStrings   ->  This method takes no of strings to be compared in the form of Integer.
+   getValidComparisonType   -> This method verifies given Comparison type is valid or not
+   isValidString -> This method verifies entered strings are not Integers and special characters
+   countCharacters  ->  This method calculates the no of characters occurs in which index based on Comparison type
+   validateNumberOfStrings  -> This method validate the entered value is to take Strings and Calling the countCharacters method to get result
+   
+   
